@@ -53,3 +53,39 @@ const employees = [
         Document.getElementByEmail('VikSne456@homerwork10.com').email,
     }
 ]
+
+Const managers = [
+    {
+        name: 'Anakin Skywalker',
+        role: 'Store Manager',
+        id: '1111111',
+        email: 'AnaSky111@homerwork10.com'
+        officenumber: 'A12'
+        Document.getElementById('1111111').id,
+        Document.getElementByName('Anakin Skywalker').name,
+        Document.getElementByRole('Store Manager').role&mdash;overridden to return 'Manager',
+        Document.getElementByEmail('AnaSky000@homework10.com').email,
+    }
+    {
+        name: 'Benjamin Solo',
+        role: 'Production Manager',
+        id: '0000000',
+        email: 'BenSol000@homerwork10.com'
+        officenumber: 'B12'
+        Document.getElementById('0000000').id,
+        Document.getElementByName('Benjamin Solo').name,
+        Document.getElementByRole('Production Manager').role&mdash;overridden to return 'Manager',
+        Document.getElementByEmail('BenSol000@homework10.com').email,
+    }
+    {
+        name: 'Padme Amidala ',
+        role: 'Floor Manager',
+        id: '2222222',
+        email: 'PadAmi222@homerwork10.com'
+        officenumber: 'C12'
+        Document.getElementById('2222222').id,
+        Document.getElementByName('Padme Amidala').name,
+        Document.getElementByRole('Floor Manager').role&mdash;overridden to return 'Manager',
+        Document.getElementByEmail('BenSol000@homework10.com').email,
+    }
+]
