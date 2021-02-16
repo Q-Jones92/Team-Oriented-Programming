@@ -116,3 +116,18 @@ Const engineer = [
         Document.getElementByGithub('DigiDestined').github,
     }
 ]
+
+Const intern = [
+    {
+        name: 'Miesha Green',
+        role: 'Intern',
+        id: '7788990',
+        email: 'MiG7890@homerwork10.com'
+        school: 'Rice University'
+        Document.getElementById('7788990').id,
+        Document.getElementByName('Miesha Green').name,
+        Document.getElementByRole('Intern').role;overridden to return 'Intern',
+        Document.getElementByEmail('MiG7890@homework10.com').email,
+        Document.getElementBySchool('Rice University').school,
+    }
+]
