@@ -1,1 +1,2 @@
 # Team-Oriented-Programming
+On this projecdt you will be able see the employees, engineers, managers, and interns that are members. While viewing each member one will be able to see the members name, job title, id number, email, github account, office number, and school attended.
